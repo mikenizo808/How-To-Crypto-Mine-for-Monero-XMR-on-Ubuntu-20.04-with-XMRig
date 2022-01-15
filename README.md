@@ -7,6 +7,12 @@ If you have not installed the OS yet, feel free to choose the "minimal" install 
 
 *Note: Optionally, consider using a dedicated `Rasperry Pi` (or similar) to run a hardware firewall such as the `openwrt` router.  We will use the `ubuntu` firewall known as `ufw`, but we also want a hardware firewall as well.  For a full guide on setting that up, see my write-up at `https://github.com/mikenizo808/How-To-Install-openwrt-on-Raspberry-Pi`*
 
+## Credit / Motivation
+Thanks to `Network Chuck` for the motivation and and literally the commands.  We essentially follow his video for setting up Raspberry Pi, except that we use Ubuntu, and (spoiler) the commands are exactly the same.
+
+Check out Chuck's great video on the topic of `XMRig` on `Raspberry Pi` at:
+
+    https://youtu.be/hHtGN_JzoP8
 
 ## List Video Card
 
