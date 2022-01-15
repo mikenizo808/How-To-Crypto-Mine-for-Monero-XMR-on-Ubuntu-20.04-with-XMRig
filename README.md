@@ -275,6 +275,6 @@ Also worth mentioning again is that setting up `XMRig` on `Raspberry Pi` uses ex
 
 As for hashrate, my `Raspberry Pi 4` nodes solve at about `900` hashes/sec (depending on memory) and my `AMD` desktop card gets about `4000/sec`.
 
-Finally, be aware it may take a couple of days before you see any balance above complete zeros, since the mining pools usually have some limit before your first payout show up.
+Finally, be aware it may take a couple of days before you see any balance above complete zeros, since the mining pools usually have some limit before your first payout shows up.
 
 *PS - Remember that with the cost of electricity, mining should really only be done to break even and have fun!*
