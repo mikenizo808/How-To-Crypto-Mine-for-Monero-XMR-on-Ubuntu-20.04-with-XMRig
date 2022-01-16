@@ -18,6 +18,8 @@ Check out Chuck's great video on the topic of `XMRig` on `Raspberry Pi` at:
 
     lspci | grep VGA
 
+*Note: We are only interested in the video card to make your system stable, not for mining since Monero does not benefit from `gpu`.  See the write-up at https://monerostuff.blogspot.com/2021/01/can-i-mine-monero-with-graphics-card.html for more details.*
+    
 ## Example Output
 
     #nvidia system
