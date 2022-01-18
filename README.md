@@ -275,8 +275,14 @@ In this guide, we got you up and running `XMRig` open source mining software on 
 
 Also worth mentioning again is that setting up `XMRig` on `Raspberry Pi` uses exactly all of the same commands as `Ubuntu` (so add some `Pi` nodes!).
 
-As for hashrate, my `Raspberry Pi 4` nodes solve at about `900` hashes/sec (depending on memory) and my `AMD` desktop card gets about `4000/sec`.
+As for hashrate, my `Raspberry Pi 4` nodes solve at about `900` hashes/sec (depending on memory) and my `AMD` desktop gets about `4000/sec` by default (8k when following the official performance guides). Be sure to check out the "Next Steps" below for a walk-through on getting high performance from your setup.
 
 Finally, be aware it may take a couple of days before you see any balance above complete zeros, since the mining pools usually have some limit before your first payout shows up.
 
 *PS - Remember that with the cost of electricity, mining should really only be done to break even and have fun!*
+
+## Next Steps
+This is a good time to relax and enjoy some decent hashrates, but with just a couple more steps, you can literally double your performance.  In the article below, we walk through the official performance papers and show techniques to get those hashrates up.
+
+    https://github.com/mikenizo808/Increasing-XMRig-Performance-on-Ubuntu
+
