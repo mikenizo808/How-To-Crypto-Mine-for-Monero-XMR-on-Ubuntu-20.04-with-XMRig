@@ -40,7 +40,7 @@ If your system uses an `AMD` card then no drivers are needed.  However, if using
 Simply launch the `Software & Updates` application and navigate to the `Additional Drivers` tab. There you will see the various versions available; Click the one at the top of the list for the latest.
 
 ## Optional Networking - Install `net-tools` with `apt`
-For conveneince, we can install `net-tools` which will let us do `ifconfig` to see our network info if ever needed (or just use the default `ip addr` command, though the output is not great for that one.).  For these reasons and more, we install `net-tools`.
+For convenience, we can install `net-tools` which will let us do `ifconfig` to see our network info if ever needed (or just use the default `ip addr` command, though the output is not great for that one.).  For these reasons and more, we install `net-tools`.
 
     sudo apt install net-tools
 
