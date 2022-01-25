@@ -270,6 +270,18 @@ The following is an overview of the steps required to start mining now..
 
 *Note: The `-p` parameter allows you to name this particular runtime (useful if running more than one device). This information then shows up on the dashboard at `https://moneroocean.stream`*
 
+## When will I see `XMR` Earnings appear?
+Put away the `Monero Wallet` because you will not see earnings there for a while.  Instead, focus on the pool webpage to see your earnings before reaching the pool limit.
+
+The default payment threshold varies for each pool.  For `moneroocean.stream` the default is `0.3` XMR that must be earned before payment; However, you can lower this setting to `0.003` to get paid quicker!
+
+To configure your minimum payout, click the `Miner options` icon from the link below.
+
+
+    https://moneroocean.stream/
+
+*Note: This is where you normally watch your stats from.  The `Miner options` icon is near the top right of the page, between `XMR Total Due` and `XMR Paid`. The icon looks like 3 vertical bars.*
+
 ## Summary
 In this guide, we got you up and running `XMRig` open source mining software on `Ubuntu 20.04`. Credit and props to Network Chuck for the motivation and literally the commands!
 
