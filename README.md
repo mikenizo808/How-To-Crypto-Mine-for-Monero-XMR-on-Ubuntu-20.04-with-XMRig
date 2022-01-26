@@ -282,12 +282,23 @@ To configure your minimum payout, click the `Miner options` icon from the link b
 
 *Note: This is where you normally watch your stats from.  The `Miner options` icon is near the top right of the page, between `XMR Total Due` and `XMR Paid`. The icon looks like 3 vertical bars.*
 
+*Tip: Try to keep the default setting (`0.003`) since that gives the cheapest XMR `tx` rate (cost to cash out).  The default rate is `1.32 %` (when set to `0.003`), and when getting paid as fast as possible the rate is `13.33 %` (i.e. when set to `0.03`).*
+
+## Donating to things you like
+Once you start making some xmr, you can optionally donate for fun and practice.  In the Monero Wallet application, I add the following to my "Address Book" and send a small donation.  You can check the FAQ for the sites or developers you want to support to check how to contribute.
+
+    # donate to monero
+    888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H
+
+    # donate to xmrig
+    48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
+
 ## Summary
 In this guide, we got you up and running `XMRig` open source mining software on `Ubuntu 20.04`. Credit and props to Network Chuck for the motivation and literally the commands!
 
 Also worth mentioning again is that setting up `XMRig` on `Raspberry Pi` uses exactly all of the same commands as `Ubuntu` (so add some `Pi` nodes!).
 
-As for hashrate, my `Raspberry Pi 4` nodes solve at about `900` hashes/sec (depending on memory) and my `AMD` desktop gets about `4000/sec` by default (8k when following the official performance guides). Be sure to check out the "Next Steps" below for a walk-through on getting high performance from your setup.
+As for hashrate, my `Raspberry Pi 4` nodes solve at about `90` to `107` hashes/sec, and my `AMD` desktop gets about `4000/sec` by default (8k when following the official performance guides). Be sure to check out the "Next Steps" below for a walk-through on getting high performance from your setup.
 
 Finally, be aware it may take a couple of days before you see any balance above complete zeros, since the mining pools usually have some limit before your first payout shows up.
 
