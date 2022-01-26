@@ -294,7 +294,7 @@ Once you start making some xmr, you can optionally donate for fun and practice. 
     48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
 
 ## Summary
-In this guide, we got you up and running `XMRig` open source mining software on `Ubuntu 20.04`. Credit and props to Network Chuck for the motivation and literally the commands!
+In this guide, we got you up and running with `XMRig` open source mining software on `Ubuntu 20.04`. Credit and props to Network Chuck for the motivation and literally the commands!
 
 Also worth mentioning again is that setting up `XMRig` on `Raspberry Pi` uses exactly all of the same commands as `Ubuntu` (so add some `Pi` nodes!).
 
