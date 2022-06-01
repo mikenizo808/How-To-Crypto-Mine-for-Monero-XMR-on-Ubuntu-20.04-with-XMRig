@@ -53,7 +53,7 @@ First, let's review the software involved:
 
 - `openssh-client` - This let's you `ssh` to things and is installed by default.
 
-For my desktop, I do not need things to `ssh` to me (though I could allow it for the convenince of being able to `scp` files to myself). So, nothing needs to reach me; However, I do want to reach other things (i.e. terminal using `ssh` to my Miner nodes).
+For my desktop, I do not need things to `ssh` to me (though I could allow it for the convenience of being able to `scp` files to myself). So, nothing needs to reach me; However, I do want to reach other things (i.e. terminal using `ssh` to my Miner nodes).
 
 As such, the other nodes will need to be running the "Server" component of ssh. Here, we install `openssh-server` and configure the Ubuntu `ufw` firewall.
 
@@ -161,7 +161,7 @@ Follow the steps to download and verify your binaries at:
     https://www.getmonero.org/resources/user-guides/verification-allos-advanced.html
 
 
-*Important: For either GUI or CLI downloads, be sure to use at least version `0.17.2.3`, since there were major bugfixes in this release.  Here, we use use the very latest `0.17.3.1`.*
+*Important: For either GUI or CLI downloads, be sure to use at least version `0.17.2.3`, since there were major bugfixes in this release.  Here, we use use `0.17.3.1`, which is already old so always be sure to check for new releases.*
 
 ## Installing `Monero Wallet`
 You can just download and launch the app, but the recommendation is to perform the following technique to verify the bits.
@@ -219,8 +219,6 @@ We can use `grep` to search for our hash, so get that on the clipboard and paste
 Not needed, but you can optionally install the `Monero CLI`. This can be skipped if using the `Monero GUI` version.
 
 To download the `Monero CLI` (if desired) navigate to the same downloads page as the GUI version (just scroll to bottom to find it):
-
-*Reminder: For GUI or CLI downloads, be sure to use `v0.17.2.3` or greater, since there were major bugfixes in this release. The latest release is `v0.17.3.1` at the time of this writing.* 
 
 ## Launch the Monero GUI
 You can just launch it from your downloads or home drive wherever you placed it.  However, you might want to move the bits to a standard location such as `opt`.
